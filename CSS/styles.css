@@ -1,0 +1,106 @@
+/* Elie Wamana*/
+
+/*CSS Reset*/
+body, header, nav {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+a:hover {
+    color: red;
+}
+a:link {
+    color: royalblue;
+}
+
+header {
+    background-color: red;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 4%;
+}
+body {
+    background-color: white;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 15px;
+}
+nav { 
+    display: inline;
+    font-size: 30px;
+    font-family: cursive;
+    font-style: italic;
+    text-indent: center;
+}
+dl {
+    font-family: monospace;
+    text-align: left;
+    margin-left: 3%;
+    list-style-type: bullets;
+}
+h2 {
+    text-align: left;
+    margin-left: 3%;
+    background-color: red;
+    font-size: 25px;
+}
+h1 {
+    text-align: right;
+    margin-right: 3%;
+    background-color: red;
+    font-size: 25px;
+}
+p {
+    text-align: right;
+    margin-right: 3%;
+}
+ol {
+  list-style-type: upper-roman;
+    list-style-position: outside;
+   
+}
+img {
+    position: left;
+}
+h3 {
+    background-color: red;
+    font-size: 25x;
+}
+#container {
+    background-image: linear-gradient(white, pink);
+}
+.top3 {
+    background-image: linear-gradient(pink, white);
+}
+aside {
+    text-align: left;
+    font-size: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+footer { 
+    text-align: left;
+    font-size: 10px;
+}
+/* Media Query for tablet Viewport*/ 
+@media screen { min-width: 280px;
+    
+}
+body {
+    background-image: linear-gradient(pink, white);
+    
+}
+footer {
+    text-align: left;
+    font-size: 10px;
+ }
+/* Media Query for dessktop viewport*/
+@media screen { max-width: :empty;
+    
+} 
+body {
+    background-image: linear-gradient(pink, white);
+}
